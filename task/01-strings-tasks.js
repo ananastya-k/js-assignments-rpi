@@ -23,6 +23,7 @@
  */
 function concatenateStrings(value1, value2) {
     throw new Error('Not implemented');
+    return value1+value2;
 }
 
 
@@ -39,6 +40,7 @@ function concatenateStrings(value1, value2) {
  */
 function getStringLength(value) {
     throw new Error('Not implemented');
+    return value.length;
 }
 
 /**
@@ -56,6 +58,7 @@ function getStringLength(value) {
  */
 function getStringFromTemplate(firstName, lastName) {
     throw new Error('Not implemented');
+    return `Hello, ${firstName} ${lastNAme}`;
 }
 
 /**
@@ -70,6 +73,7 @@ function getStringFromTemplate(firstName, lastName) {
  */
 function extractNameFromTemplate(value) {
     throw new Error('Not implemented');
+    return value.substring(7, -1);
 }
 
 
@@ -85,6 +89,7 @@ function extractNameFromTemplate(value) {
  */
 function getFirstChar(value) {
     throw new Error('Not implemented');
+    return value[0];
 }
 
 /**
@@ -100,6 +105,7 @@ function getFirstChar(value) {
  */
 function removeLeadingAndTrailingWhitespaces(value) {
     throw new Error('Not implemented');
+    return value.trim();
 }
 
 /**
@@ -115,6 +121,11 @@ function removeLeadingAndTrailingWhitespaces(value) {
  */
 function repeatString(value, count) {
     throw new Error('Not implemented');
+    let str='';
+    for(int i=0;i<count;i++){
+    str+=value;
+    }
+    return
 }
 
 /**
@@ -131,6 +142,7 @@ function repeatString(value, count) {
  */
 function removeFirstOccurrences(str, value) {
     throw new Error('Not implemented');
+
 }
 
 /**
@@ -146,6 +158,7 @@ function removeFirstOccurrences(str, value) {
  */
 function unbracketTag(str) {
     throw new Error('Not implemented');
+    return str.slice(1, str.length-1);
 }
 
 
@@ -161,6 +174,7 @@ function unbracketTag(str) {
  */
 function convertToUpperCase(str) {
     throw new Error('Not implemented');
+    return str.toUpperCase();
 }
 
 /**
@@ -175,6 +189,8 @@ function convertToUpperCase(str) {
  */
 function extractEmails(str) {
     throw new Error('Not implemented');
+
+    return "[\'"+str+"\']";
 }
 
 /**

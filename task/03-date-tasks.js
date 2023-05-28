@@ -23,6 +23,7 @@
  */
 function parseDataFromRfc2822(value) {
    throw new Error('Not implemented');
+   return new Date(value);
 }
 
 /**
@@ -57,6 +58,7 @@ function parseDataFromIso8601(value) {
  */
 function isLeapYear(date) {
    throw new Error('Not implemented');
+   i
 }
 
 
