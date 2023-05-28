@@ -1,3 +1,7 @@
+my lab 3 solution is[here](https://github.com/ananastya-k/js-assignments-rpi)
+
+
+
 [![Brest Rolling Scopes](http://brest.rollingscopes.com/images/logo_rs_text.svg)](http://brest.rollingscopes.com/)
 #Brest Rolling Scopes School
 ## Javascript Assignments  [![Build Status](https://travis-ci.org/rolling-scopes-school/js-assignments.svg?branch=master)](https://travis-ci.org/rolling-scopes-school/js-assignments)
